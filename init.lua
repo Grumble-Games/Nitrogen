@@ -63,8 +63,7 @@ function LocalPlr:Powerkick(Msg)
 	local Bg = Instance.new("Frame")
 	local UICorner = Instance.new("UICorner")
 	local Message = Instance.new("TextLabel")
-	local Blur = Instance.new("BlurEffect")
-	
+
 	Powerkick.Name = "Powerkick"
 	Powerkick.Parent = SafeGui
 	Powerkick.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -73,7 +72,7 @@ function LocalPlr:Powerkick(Msg)
 	Bg.Parent = Powerkick
 	Bg.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 	Bg.Position = UDim2.new(0.38102299, 0, 0.376543224, 0)
-	Bg.Size = UDim2.new(0, 320, 0, 200)
+	Bg.Size = UDim2.new(0.237212747, 0, 0.246913582, 0)
 
 	UICorner.Parent = Bg
 
@@ -82,7 +81,7 @@ function LocalPlr:Powerkick(Msg)
 	Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Message.BackgroundTransparency = 1.000
 	Message.Position = UDim2.new(0.046875, 0, 0.0850000009, 0)
-	Message.Size = UDim2.new(0, 289, 0, 165)
+	Message.Size = UDim2.new(0.903124988, 0, 0.824999988, 0)
 	Message.Font = Enum.Font.Unknown
 	Message.Text = "POWERKICKED!!!: " .. Msg
 	Message.TextColor3 = Color3.fromRGB(217, 217, 217)
