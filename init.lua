@@ -66,7 +66,7 @@ function LocalPlr:Powerkick(Msg)
 	local Blur = Instance.new("BlurEffect")
 	
 	Powerkick.Name = "Powerkick"
-	Powerkick.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Powerkick.Parent = SafeGui
 	Powerkick.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	Bg.Name = "Bg"
