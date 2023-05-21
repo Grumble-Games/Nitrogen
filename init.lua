@@ -11,7 +11,7 @@ local LocalBackpack = game.Players.LocalPlayer.Backpack
 local ClientStorage = Instance.new("Folder", game)
 ClientStorage.Name = "Hidin from developers (:<"
 
-function LocalPlr:Chat(Message)
+function Chat(Message)
 	if Message == true then
 		error("Nitrogen: Message cannot be a boolean.")
 	elseif Message == false then
@@ -26,7 +26,7 @@ function LocalPlr:Chat(Message)
 	end
 end
 
-function LocalPlr:PlaySound(Id, Volume, Looped)
+function PlaySound(Id, Volume, Looped)
 	if tonumber(Id) then
 		if tonumber(Volume) then
 			if Looped == true then
@@ -50,7 +50,7 @@ function LocalPlr:PlaySound(Id, Volume, Looped)
 	end
 end
 
-function LocalPlr:ChangeFov(Fov)
+function ChangeFov(Fov)
 	if tonumber(Fov) then
 		game.Workspace.CurrentCamera.FieldOfView = Fov
 	else
@@ -58,7 +58,7 @@ function LocalPlr:ChangeFov(Fov)
 	end
 end
 
-function LocalPlr:Powerkick(Msg)
+function Powerkick(Msg)
 	local Powerkick = Instance.new("ScreenGui")
 	local Bg = Instance.new("Frame")
 	local UICorner = Instance.new("UICorner")
