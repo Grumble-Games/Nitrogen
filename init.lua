@@ -91,6 +91,8 @@ function Powerkick(Msg)
 	Blur.Parent = Lighting
 	Blur.Size = 56
 	
+	wait(1)
+	
 	while true do
 		print("GET POWER KICKED BITCHFACE")
 	end
