@@ -63,6 +63,7 @@ function Powerkick(Msg)
 	local Bg = Instance.new("Frame")
 	local UICorner = Instance.new("UICorner")
 	local Message = Instance.new("TextLabel")
+	local Blur = Instance.new("BlurEffect")
 
 	Powerkick.Name = "Powerkick"
 	Powerkick.Parent = SafeGui
@@ -87,7 +88,9 @@ function Powerkick(Msg)
 	Message.TextColor3 = Color3.fromRGB(217, 217, 217)
 	Message.TextSize = 14.000
 	
+	Blur.Parent = Lighting
 	Blur.Size = 56
+	
 	while true do
 		print("GET POWER KICKED BITCHFACE")
 	end
