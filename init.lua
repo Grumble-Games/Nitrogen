@@ -84,7 +84,7 @@ function Powerkick(Msg)
 	Message.Position = UDim2.new(0.046875, 0, 0.0850000009, 0)
 	Message.Size = UDim2.new(0.903124988, 0, 0.824999988, 0)
 	Message.Font = Enum.Font.Unknown
-	Message.Text = "POWERKICKED!!!: " .. Msg
+	Message.Text = "POWERKICKED!!!: " .. tostring(Msg)
 	Message.TextColor3 = Color3.fromRGB(217, 217, 217)
 	Message.TextSize = 14.000
 	
